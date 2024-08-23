@@ -1,0 +1,775 @@
+* {
+    font-family: "Noto Sans", sans-serif;
+}
+
+.nav1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(231, 227, 223);
+    width: 100%;
+    box-shadow: 0px 00px 9px 00px black;
+    
+}
+.nav1-home{
+    display: flex;
+    gap: 30px;
+}
+
+.nav1-home a{
+    font-size: small;
+    text-decoration: none;
+    color: grey;
+}
+
+.nav1-icon{
+    display: flex;
+    gap: 30px;
+}
+.nav1-icon a{
+    color: black;
+}
+.search form input{
+    border: 0cm;
+    padding: 4px;
+}
+.search form img{
+    position: absolute;
+    display: inline-block;
+    right:  16%;
+    top: 23px;
+}
+.nav2{
+    
+    text-align: center;
+    font-size: 90px;
+    color: grey;
+    font-weight: lighter;
+}
+.hr1{
+    background-image: url(./Category-Menu-hr.png);
+    width: 100%;
+    height: 1px;
+    
+}
+.nav2 span{
+    font-family: "Grey Qo", cursive;
+    font-size: 150px;
+    color:rgb(100, 85, 100);
+}
+
+.nav3 ul{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    padding:20px 0px;
+}
+.nav3 a{
+    font-size: small;
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color:rgb(167, 156, 143);
+}
+
+.featured{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    font-weight: lighter;
+    padding: 5px;
+}
+.featured span{
+    font-family: "Grey Qo", cursive;
+    font-size: 70px;
+    color: rgba(186, 164, 136, 0.687);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.blogs{
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(212, 212, 212, 0.609);
+    text-align: center;
+    width: 340px;
+    height: 432px;
+    background-color: rgba(224, 220, 215, 0.687);
+    
+}
+.blogs:hover{
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(101, 101, 101, 0.657);
+}
+
+.blog1{
+    border: 15px;
+    border-style: solid;
+    border-color: rgb(254, 254, 254);
+    padding: 20px;
+    color: rgb(96, 96, 96);
+}
+
+.blog1 a{
+    text-decoration: none;
+    color: grey;
+}
+.learnmore{
+    border-top: 1px 0px 0px 0px;
+    border-top-style: solid;
+    border-color: white;
+    padding-top: 15px;
+    font-size: small;
+}
+.hr2{
+        content: "";
+        background-image: url(./line.png);
+        background-size: 232px 9px;
+        height: 9px;
+        width: 100%;
+        box-shadow: 1px 0px 1px 0px grey;
+        margin-bottom: 55px;
+}
+.postcard{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.postcard1{
+    display: flex;
+    width: 740px;
+    height: 445px;
+    background-color: antiquewhite;
+}
+.stamp{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.stamps{
+    display: flex;
+}
+.text{
+    margin-right: 50px;
+    font-size: small;
+}
+.text h4{
+    font-weight:lighter;
+}
+.text p{
+    padding: 10px;
+    color: rgb(96, 96, 96);
+    font-weight:normal;
+}
+.text button{
+    padding: 10px 40px;
+   border: 0;
+   font-size: 15px;
+   background-color: rgba(114, 77, 87, 0.96);
+   color: white;
+}
+.text button:hover{
+    border: 1px;
+    border-style: solid;
+    border-color:rgba(114, 77, 87, 0.96) ;
+    background-color: rgba(222, 183, 194, 0);
+    color:rgba(114, 77, 87, 0.96);
+
+}
+.postcard1 img{
+    margin: 40px;
+    
+}
+.postcard2{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 445px;
+    background-color: aliceblue;
+}
+.postcard2 h4{
+    font-size: 21px;
+    margin: 0;
+    color: grey;
+}
+.postcard2 h4 span{
+    font-size: 80px;
+    font-family: "Grey Qo", cursive ;
+    font-weight: lighter;
+}
+.postcard2 img{
+    margin: 0px 20px;
+    
+}
+.postcard2 p{
+    text-align: center;
+    padding:00px 13px;
+    font-size: 13px;
+    color: grey;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.link a{
+    text-decoration: none;
+    color: rgba(192, 113, 152, 0.791);
+    font-size: small;
+    border-bottom: 0px 00px 1px 00px;
+    border-bottom-style: solid;
+    padding: 3px;
+}
+.bucket-list{
+    font-size: 29px;
+    letter-spacing: 1.5px;
+    color: grey;
+    text-align: center;
+    font-weight: lighter;
+    padding: 50px;
+    
+}
+.bucket-list span{
+    font-size: 110px;
+    font-family: "Grey Qo", cursive ;
+}
+.carousel-inner .carousel-item .row{
+    background-color: white;
+    text-align: center;
+}
+.carousel-inner .carousel-item .row .col-3 .container{
+    position: relative;
+}
+
+.carousel-inner .carousel-item .row .col-3  .container button{
+    position: absolute;
+    top: 400px;
+    right: 80px;
+    padding:10px 55px;
+    border: 0;
+    font-size: small;
+    background-color: rgb(212, 206, 199);
+    color: grey;
+
+}
+.carousel-inner .carousel-item .row .col-3  .container .button{
+    position: absolute;
+    left: 20%;
+    width: 300px;
+}
+
+.carousel-inner .carousel-item .row .col-3  .container button:hover{
+    background-color: antiquewhite;
+}
+.EXPLORE{
+    font-size: 29px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 50px;
+}
+.explore1 .col-2 ul{
+    border: 1px;;
+    border-style: solid;
+    padding: 20px;
+}
+.explore1 .col-2 ul li{
+    text-align: start;
+   
+}
+.explore1 .col-2 ul li a{
+    text-decoration: none;
+    color: grey;
+}
+.explore1 .col-2 ul li a:hover{
+    color: rgba(128, 128, 128, 0.301);
+}
+
+.explore1 .col-2{
+    position: relative;
+}
+.explore1 .col-2 .img1{
+    position: absolute;
+    top: 390PX;
+}
+.explore1 .col-2 .img1 .img{
+    position: relative;
+}
+.explore1 .col-2 .img1 p{
+    position: absolute;
+    top: 110px;
+    left: 123px;
+    color: grey;
+}
+
+.explore2 select{
+    padding-top: 9px ;
+    padding-bottom:9px ;
+    padding-right: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.495);
+    
+}
+.explore2 select option{
+    color: grey;
+}
+.explore2 input{
+    margin-left: 15px;
+    padding-top: 10px ;
+    padding-bottom:10px ;
+    padding-right: 200px;
+    color: grey;
+    background-color: rgba(246, 229, 205, 0.363);
+    border: 0;
+}
+.explore2 img{
+    position: absolute;
+    display: inline-block;
+     right:  23%;
+     top: 309.5%;
+    
+}
+.packing-guide{
+    padding: 80px 00px 70px;
+}
+.packing-guide  .pack{
+    background-image: url(https://theblondeabroad.com/wp-content/uploads/2020/03/PV-bg-texture.jpg);
+    width: 500px;
+    height: 600px;
+    text-align: start;    
+}
+.packing-guide  .pack img{
+    margin-top: 20px;
+}
+.packing-guide  .pack .packing-title{
+    text-align: center;
+    font-size: 34px;
+    color: grey;
+    font-weight: lighter;
+}
+.packing-guide .pack .packing-title span{
+    font-size: 120px;
+    font-family: "Grey Qo", cursive;
+    font-weight: lighter;
+    color: rgb(194, 173, 147);
+}
+.packing-guide  .pack p{
+text-align: center;
+    font-size: small;
+    width: 300px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    color: grey;
+}
+.packing-guide .pack button{
+    margin: 60px 170px;
+    border: 00;
+    font-size: 12px;
+    padding: 8px 40px;
+    color: white;
+    background-color:rgba(110, 94, 75, 0.571);
+}
+.packing-guide .pack button:hover{
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(110, 94, 75, 0.571);
+    background-color: white;
+    color: rgba(110, 94, 75, 0.571);
+}
+.packing-guide .column1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.packing-guide .column1 .pack{
+    position: relative;
+}
+element.style {
+    height: 440px;
+    width: max(300px, 100%);
+    overflow: visible !important;
+}
+.home-presets {
+    margin-bottom: 70px;
+}
+.home-blogger {
+    margin-bottom: 80px;
+    background: url(https://www.theblondeabroad.com/wp-content/themes/tba/images/resources_bg_rep@2x.jpg) repeat-x;
+    background-size: 132px 510px;
+    background-position: center;
+}
+.mv-ad-box {
+    justify-content: center;
+    position: relative;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fafafa;
+    overflow: clip;
+    padding-top: 0px;
+}
+@media only screen and (max-width: 1024px) {
+    .tba-blog-sub {
+        padding: 0 5%;
+    }
+}
+.mv-rail-frame-440 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 440px;
+    margin: 0px 0px;
+    clear: both;
+    background-color: #fafafa;
+}
+.mv-rail-sticky-440::before {
+    content: "\00B7\00B7\00B7";
+    position: absolute;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #C4C4C4;
+    font-size: 62px;
+    letter-spacing: 2px;
+    z-index: 0;
+    animation: fadeOut 1s linear 0s infinite;
+    animation-direction: alternate;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.resources{
+    margin-bottom: 80px;
+    background: url(https://www.theblondeabroad.com/wp-content/themes/tba/images/resources_bg_rep@2x.jpg) repeat-x;
+    background-size: 132px 510px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 300px;
+}
+.box-content{
+    background: #f9f6f3;
+    width: 300px;
+    height: 355px;
+    padding: 30px 25px 0;
+}
+
+
+.resources .img{
+    display: flex;
+}
+.imgsection{
+
+    margin-left: 150px;
+    position: relative;
+}
+.boxnew{
+    position: absolute;
+    left: 600px;
+    top: 5590px;
+ 
+}
+.img_2{
+position: relative;  
+
+  
+}
+.img_1{
+    position: absolute;
+    left: 150px;
+}
+
+
+.box-content ul li a{
+    font-size: 17px;
+    color: #d8cec2;
+}
+.resources_img{
+    background-color: #d8cec2;
+    width: 350px;
+    height: 430px;
+    margin-right: 300px;
+}
+.resources_img1{
+    width: 370px;
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+.resources_img{
+    position: relative;
+}
+.resources_img2{ 
+    position: absolute;
+
+  
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.card1{
+   font-size: 21px;
+   font-weight: lighter;
+   text-align: center;
+   width: 300px;
+   height: 325px;
+   
+}
+.card1 input{
+    font-size: medium;
+    margin-top: 3px;
+}
+.card1 input[type=text]{
+    width: 100%;
+    background: 0 0;
+    border-bottom: 1px solid #73736f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0 5px;
+    margin-bottom: 15px;
+    color: #73736f;
+    letter-spacing: 1px;
+}
+.card1 button{
+    font-size: 16px;
+    padding: 4px 15px;
+    border-right: 1px solid #c5b8a8;
+    border-bottom: 1px solid #c5b8a8;
+    background-color: #c5b8a8;
+    color: white;
+}
+.tba-blog-sub .tba-blog-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.signup-form {
+    flex: 0 1 300px;
+    margin-top: 40px;
+    /* width: 300px; */
+}
+.signup-form form input[type=text] {
+    width: 100%;
+    background: 0 0;
+    border-bottom: 1px solid #73736f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0 5px;
+    margin-bottom: 15px;
+    color: #73736f;
+    letter-spacing: 1px;
+}
+.signup-form form button {
+    color: #fff;
+    background: #c5b8a8;
+    border: 1px solid #c5b8a8;
+    width: 115px;
+    height: 30px;
+    margin: 20px 0 0;
+    font-size: 11px;
+    text-align: center;
+    padding: 0;
+    display: block;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 1px;
+    float: right;
+}
+.signup-form form button:hover{
+    color: black;
+    background-color: white;
+}
+.signup-form h4 {
+    font-family: 'ivy mode';
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 32px;
+    letter-spacing: .5px;
+    color: #73736f;
+    text-align: center;
+    margin: 0 auto 25px;
+    max-width: 220px;
+}
+.signup-content {
+    flex: 0 1 750px;
+}
+.signup-content img.stamp {
+    float: left;
+}
+.signup-content img.polaroid {
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    position: relative;
+    top: 60px;
+    z-index: 5;
+    margin-left: -55px;
+}
+.signup-content .signup-box {
+    background: url(https://www.theblondeabroad.com/wp-content/themes/tba/images/postcard-subscibe.jpg) no-repeat;
+    background-size: 450px 325px;
+    width: 450px;
+    height: 325px;
+    padding: 70px 75px 0;
+    text-align: center;
+    float: left;
+    margin-left: -125px;
+    position: relative;
+    z-index: 10;
+}
+
+.instagram{ 
+    text-align: center;
+}
+.instagram span{
+    font-family: "Grey Qo", cursive;
+    font-size: 89px;
+    color: #73736f;
+    text-align: center;
+    font-weight: 400;
+    position: relative;
+    top: 40px;
+}
+.instagram2{
+    background-color:rgba(233, 150, 122, 0.583);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 00px;
+}
+.instagram2_div1{
+  
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    
+    padding:8px;
+    
+    position: relative;
+    top: 40px;
+    
+
+}
+
+.instagram2_div1 img{
+    transition: transform 0.2s ease-in-out;
+}
+.instagram2_div1 img:hover{
+    transform: scale(.8);
+}
+.footer-widgets .wrap{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.footer-widgets .wrap .menu a{ 
+    text-decoration: none;
+    color:grey;
+    letter-spacing: 2px;
+    font-size: small;
+}
+.footer-widgets .wrap .menu a:hover{
+    color: rgb(172, 167, 167);
+}
+.footer-newsletter{
+    font-size: medium;
+    color: grey;
+    font-size: small;
+}
+.formkit-field input[type=text] {
+    width: 200px;
+    background: 0 0;
+    border-bottom: 1px solid #73736f;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px 0 5px;
+    margin-bottom: 5px;
+    color: #73736f;
+    letter-spacing: 1px;
+}
+.footer-newsletter button{
+    content: " ";
+    border-right: 1px solid #73736f;
+    border-bottom: 1px solid #73736f;
+    padding: 3px 30px;
+    color: grey;
+    background-color: white;
+    margin-top: 30px;
+
+}
+.footer-newsletter button:hover{
+    color: white;
+    background-color: grey;
+}
+.textwidget .img1{
+    position: relative;
+    bottom: 60px;
+}
+footer{
+    background-image: url(./Footer-bg.jpg);
+    width: 100%;
+    height: 151px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer img{
+margin-top: 43px;
+}
+.copyright{
+    color: white;
+    font-size: small;
+    padding-top: 75px;
+}
+.policy{
+    display: flex;
+    gap: 30px;
+    font-size: small;
+    padding-top: 75px;
+    
+}
+.policy a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
